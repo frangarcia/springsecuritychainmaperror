@@ -1,6 +1,7 @@
 This repository shows up an issue found with the plugin spring security for Grails. 
 
 Grails version: 3.1.10
+
 Spring security plugin version: 3.1.1
 
 I have created a new custom filter *MaintenceModeFilter* that only want to apply to some pattern urls
