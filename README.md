@@ -53,3 +53,14 @@ beans = {
 ```
 
 With this configuration, when requesting for instance /assets/spinner.gif no filter should be taken into account, but actually the filter MaintenanceModeFilter is. Is this a bug or I am missing something?  
+
+
+To reproduce the problem, start up the application with
+
+```
+grails run-app
+```
+
+and go to the url http://localhost:8080/assets/spinner.gif
+
+That url shouldn't be running the MaintenanceModeFilter but it actually is.
