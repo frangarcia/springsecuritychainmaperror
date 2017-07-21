@@ -24,3 +24,4 @@ if (Environment.isDevelopmentMode() && targetDir) {
 
 
 logger('org.springframework.security.web.FilterChainProxy',DEBUG)
+logger('grails.plugin.springsecurity.SpringSecurityUtils', TRACE)
